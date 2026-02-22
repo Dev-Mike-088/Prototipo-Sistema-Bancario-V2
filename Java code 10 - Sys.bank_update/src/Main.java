@@ -25,7 +25,7 @@ public class Main {
             String pin = sc.nextLine();
 
             Conta contaActual;
-
+            // Verificação de usuário na Array contas
             for (int i = 0; i < contas.size(); i++) {
 
                 contaActual = contas.get(i);
@@ -46,7 +46,7 @@ public class Main {
             }
 
         } else {
-
+            // Criação de novos usuários 
             System.out.println("Deseja fazer um cadastro: [1] Sim [2] Não ");
             int initial = sc.nextInt();
 
