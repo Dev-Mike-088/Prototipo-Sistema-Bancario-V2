@@ -38,11 +38,15 @@ Prototipo-Sistema-Bancario-V2/
 │   │   ├── Conta.java             # Modelo de dados da conta
 │   │   ├── ConexaoDB.java         # Gerenciador de conexão com BD
 │   │   ├── ContaDAO.java          # Data Access Object para contas
-│   │   └── TransacoesDAO.java     # Data Access Object para transações
+│   │   ├── TransacoesDAO.java     # Data Access Object para transações
+│   │   ├── *.class                # Arquivos compilados (gerados)
+│   │   └── .env                            # Configurações de conexão (não committado)
 │   ├── lib/                        # Bibliotecas externas (JDBC driver)
+│   ├── .gitignore                 # Arquivos ignorados pelo git
 │   └── Java code 10 - Sys.bank_update.iml
-├── .env                            # Configurações de conexão (não committado)
-└── README.md                        # Este arquivo
+├── .git/                           # Repositório Git local
+└── README.md                       # Este arquivo
+
 ```
 
 ### 📝 Descrição das Classes
@@ -547,5 +551,17 @@ Este projeto é um protótipo educacional para fins de aprendizado.
 
 ---
 
-**Última atualização:** 31 de agosto de 2024  
-**Desenvolvido em:** Java com PostgreSQL
+---
+
+## 🔗 Links Úteis
+
+- [PostgreSQL JDBC Download](https://jdbc.postgresql.org/download)
+- [Java Documentation](https://docs.oracle.com/en/java/)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+
+---
+
+**Última atualização:** 31 de agosto de 2026  
+**Versão:** 2.0  
+**Desenvolvido em:** Java com PostgreSQL  
+**Status:** ✅ Funcional e Completo
